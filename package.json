@@ -23,6 +23,7 @@
   "homepage": "https://github.com/maryPopplns/react_webpack#readme",
   "devDependencies": {
     "@babel/core": "^7.16.12",
+    "@babel/plugin-transform-runtime": "^7.17.0",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.3",
@@ -32,6 +33,7 @@
     "webpack-dev-server": "^4.7.3"
   },
   "dependencies": {
+    "@babel/runtime": "^7.17.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-hot-loader": "^4.13.0"
