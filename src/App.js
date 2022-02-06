@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export default function App() {
   const [count, setCount] = useState(1);
@@ -9,6 +9,7 @@ export default function App() {
 
   return (
     <>
+      <div>{count}</div>
       <div>{count}</div>
       <button onClick={clickHandler}>incrementer</button>
     </>

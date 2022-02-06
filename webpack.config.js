@@ -30,5 +30,6 @@ module.exports = {
   },
   devServer: {
     static: "./build",
+    hot: true,
   },
 };
